@@ -7,10 +7,10 @@ frontend:
     build:
       commands:
         - pwd
-        - amplify pull
         - cat src/aws-exports.js
         - cp src/aws-exports.js .
-        - cp src/models .
+        - mkdir models
+        - cp -R src/models models
         - find . -type f -name 'aws-exports.js'
         - npm run build
   artifacts:
