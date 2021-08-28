@@ -7,6 +7,8 @@ frontend:
     build:
       commands:
         - amplify pull
+        - ls -la
+        - find . -type f -name 'aws-exports.js'
         - npm run build
   artifacts:
     baseDirectory: .next
