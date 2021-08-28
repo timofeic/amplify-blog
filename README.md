@@ -65,6 +65,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Resources and references
 - [AWS Amplify Docs](https://docs.amplify.aws/start/q/integration/next/)
 - [Nader Dabit's Next.js with AWS Amplify Admin UI Crash Course](https://www.youtube.com/watch?v=bQ1Giqn5G38)
+- [Deploy and host server-side rendered apps with Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html)
 
 ## Tips
 - If you pull the backend before generating the data model and aws-exports.js does not update, you can download the config from the [AppSync console](https://console.aws.amazon.com/appsync)
