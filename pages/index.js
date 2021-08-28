@@ -11,7 +11,6 @@ export default function Home() {
     fetchPosts()
     async function fetchPosts() {
       const postData = await DataStore.query(Post);
-      console.log(postData);
       setPosts(postData)
       DataStore.observe(Post).subscribe(() => {
         fetchPosts()
