@@ -56,6 +56,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
         Start Command: npm run-script start
         Do you plan on modifying this backend? N
 1. This will create the models directory and aws-exports.js
+1. `mkdir src`
+1. Move the models directory and aws-exports.js to the src dir. This is to be consistent when we build in the Amplify console.
 
 ## Connect the frontend to AWS Amplify
 1. Navigate back to the AWS Amplify Console https://console.aws.amazon.com/amplify
