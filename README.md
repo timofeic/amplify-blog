@@ -43,7 +43,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Add a field called "title" with type "String"
 1. Add another field called "content" with the same type.
 1. Click "Save and deploy". Wait for the backend to deploy, it will take a couple minutes.
-1. In the top right, click "Local setup instructions"
+1. Meanwhile, navigate to the "Content" page and add some posts.
+1. Once the backend has been deployed, in the top right, click "Local setup instructions"
 1. Copy the `amplify pull` command and paste it in your terminal and follow the instructions in the browser. Back on the CLI:
 
         Choose your default editor

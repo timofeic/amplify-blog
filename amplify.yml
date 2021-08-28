@@ -6,6 +6,7 @@ frontend:
         - yarn install --frozen-lockfile
     build:
       commands:
+        - amplify pull
         - npm run build
   artifacts:
     baseDirectory: .next
