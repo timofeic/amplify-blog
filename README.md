@@ -60,12 +60,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Navigate back to the AWS Amplify Console https://console.aws.amazon.com/amplify
 1. Select the app
 1. Under frontend environments, select your git repo and select, the stage and connect the branch.
+1. Uncheck "Enable full-stack continuous deployments (CI/CD)" 
 1. Follow what's happening under the hood by clicking on the different stages in the CI/CD pipeline
 
 ## Resources and references
 - [AWS Amplify Docs](https://docs.amplify.aws/start/q/integration/next/)
 - [Nader Dabit's Next.js with AWS Amplify Admin UI Crash Course](https://www.youtube.com/watch?v=bQ1Giqn5G38)
 - [Deploy and host server-side rendered apps with Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html)
+- [Automatic build time generation of Amplify config](https://docs.aws.amazon.com/amplify/latest/userguide/amplify-config-autogeneration.html)
 
 ## Tips
 - If you pull the backend before generating the data model and aws-exports.js does not update, you can download the config from the [AppSync console](https://console.aws.amazon.com/appsync)
