@@ -6,12 +6,6 @@ frontend:
         - yarn install --frozen-lockfile
     build:
       commands:
-        - pwd
-        - cat src/aws-exports.js
-        - cp src/aws-exports.js .
-        - mkdir models
-        - cp -R src/models models
-        - find . -type f -name 'aws-exports.js'
         - npm run build
   artifacts:
     baseDirectory: .next
